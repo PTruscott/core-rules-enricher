@@ -7,7 +7,7 @@ This project is written in Python 3.13 and FastAPI with the use of TinyDB, a lig
 ### Installation & Running
 After cloning the repo, navigate to the root directory and install the required packages in requirements.txt
 
-```pip install -r /path/to/requirements.txt```
+```pip install -r requirements.txt```
 
 After this, you should be able to run 
 ```fastapi dev main.py```
