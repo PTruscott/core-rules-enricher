@@ -39,6 +39,7 @@ rule_info: Optional dict - Detailed information about the mapping of data betwee
 ### Data flow
 Here is a dataflow diagram of the system 
 
-![Core Rule Dataflow](https://github.com/user-attachments/assets/0485c3df-b55b-4421-925d-04aedbbdcb2b)
+![Core Rule Dataflow](https://github.com/user-attachments/assets/4daa3bde-3492-422f-8547-77458dbf05e9)
+
 
 Here is the existing dataflow through the system, as well as next steps to implement for more consistent mapping as the current mapping can be sparse.
