@@ -11,7 +11,7 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"message": "Hello!  Please navigate to /rule_info/{your_rule_id}"}
+    return {"message": "Hello World!  Please navigate to /rule_info/{your_rule_id}"}
 
 
 @app.get("/rule_info/{rule_id}")
@@ -80,7 +80,7 @@ async def get_core_rules(rule_id: str) -> dict:
 
 
 @app.get("/capecs/{capec_id}")
-async def get_core_rules(capec_id: str) -> dict:
+async def get_capecs(capec_id: str) -> dict:
     capec = Query()
     capec = db.search((capec.id == capec_id) & (capec.type == "capec"))
 
