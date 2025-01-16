@@ -1,4 +1,4 @@
-# Core Rules Enricher
+# Firewall Core Rules Enricher
 
 This is a project to add basic enrichment to a given Mod Security Core Ruleset Firewall Rules ID.   This will recieve a rule_id via REST and return related NIST 800-53 and ASVS entries.
 
